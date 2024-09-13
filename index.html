@@ -1,48 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
+      <header class="header">
+        <div class="logo_block">
+          <a href="" class="logo_link"
+            ><img src="./images/logo.svg" alt="logo tarla" class="logo_img"
+          /></a>
+        </div>
 
-        <header class="header">
-            <div class="logo_block">
-                <a href="" class="logo_link"><img src="./images/logo.svg" alt="logo tarla" class="logo_img"></a>
-            </div>
+        <nav class="nav">
+          <ul class="nav_list">
+            <li class="nav_item"><a href="" class="nav_link">Shop</a></li>
+            <li class="nav_item"><a href="" class="nav_link">Our Story</a></li>
+            <li class="nav_item">
+              <a href="" class="nav_link">Who is Tarla?</a>
+            </li>
+          </ul>
+        </nav>
 
-            <nav class="nav">
-                <ul class="nav_list">
-                    <li class="nav_item"><a href="" class="nav_link">Shop</a></li>
-                    <li class="nav_item"><a href="" class="nav_link">Our Story</a></li>
-                    <li class="nav_item"><a href="" class="nav_link">Who is Tarla?</a></li>
-                </ul>
-            </nav>
+        <div class="registration">
+          <ul class="reg_list">
+            <li class="reg_item">
+              <a href="" class="reg_link"
+                ><img src="./images/login.svg" alt="login" class="reg_img" /></a
+              >Log In
+            </li>
+            <li class="reg_item">
+              <a href="" class="reg_link"
+                ><img src="./images/cart.svg" alt="cart" class="reg_img" /></a
+              >Cart
+            </li>
+          </ul>
+        </div>
+      </header>
 
-            <div class="registration">
-                <ul class="reg_list">
-                    <li class="reg_item"><a href="" class="reg_link"><img src="./images/login.svg" alt="login" class="reg_img"></a>Log In</li>
-                    <li class="reg_item"><a href="" class="reg_link"><img src="./images/cart.svg" alt="cart" class="reg_img"></a>Cart</li>
-                </ul>
-            </div>
-        </header>
+      <section class="fresh">
+        <div class="fresh_left">
+          <h1 class="left_title">Fresh pastry kits</h1>
+          <p class="left_text">
+            Bringing the smells and tastes of your favourite patisserie to your
+            home. Our kits have everything you need to easily make killer
+            pastries every time. We’ve done the tricky bits so all you need to
+            do is roll, proof and bake!
+          </p>
+          <button class="left_btn">Shop pastry kits</button>
+        </div>
+        <div class="fresh_right">
+          <img src="./images/fresh_img.jpg" alt="" class="right_img" />
+        </div>
+      </section>
 
-        <section class="fresh">
-            <div class="fresh_left">
-                <h1 class="left_title">Fresh pastry kits</h1>
-                <p class="left_text">Bringing the smells and tastes of your favourite patisserie to your home. Our kits have everything you need to easily make killer pastries every time. We’ve done the tricky bits so all you need to do is roll, proof and bake!</p>
-                <button class="left_btn">Shop pastry kits</button>
-            </div>
-            <div class="fresh_right"><img src="./images/fresh_img.jpg" alt="" class="right_img"></div>
-        </section>
+      <section class="works">
+        <h2 class="works_title">How it works</h2>
+        <div class="works_cards">
+          <ul class="list">
+            <li class="cards_item">
+              <img src="./images/cards_img1.svg" alt="" class="cards_img" />
+              <h3 class="cards_title">Choose your fave</h3>
+              <p class="cards_text">
+                This sounds easier than it's going to be. We've got all the
+                classics on here, so now it's over to you.
+              </p>
+            </li>
+            <li class="cards_item">
+              <img src="./images/cards_img2.svg" alt="" class="cards_img" />
+              <h3 class="cards_title">Ding dong</h3>
+              <p class="cards_text">
+                Next you'll get a beautiful little package delivered to your
+                door, on a day and time slot that you choose.
+              </p>
+            </li>
+            <li class="cards_item">
+              <img src="./images/cards_img3.svg" alt="" class="cards_img" />
+              <h3 class="cards_title">Get baked</h3>
+              <p class="cards_text">
+                Take your fresh pastry sheet and fillings, learn our pro
+                techniques then never buy a stale pastry ever again.
+              </p>
+            </li>
+            <li class="cards_item">
+              <img src="./images/cards_img4.svg" alt="" class="cards_img" />
+              <h3 class="cards_title">Take the credit</h3>
+              <p class="cards_text">
+                It was all you, nudge-nudge wink-wink. We're just happy to be
+                your loyal side-kick.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <button class="works btn">Shop pastry kits</button>
+      </section>
+
+      <section class="baked">
+        <div class="baked_left">
+          <img src="./images/baked_img.jpg" alt="" class="baked_img" />
+        </div>
+        <div class="baked_right">
+          <p class="baked_text">
+            Freshly baked means fresh bakery smells filling your home, warm
+            oozey pastries on your plates, and never needing to get out of your
+            PJs.
+          </p>
+          <button class="baked_btn">Shop pastry kits</button>
+        </div>
+      </section>
+
+      <section class="pastry">
+        <h2 class="pastry_title">Shop pastry kits</h2>
+        <ul class="pastry_list">
+          <li class="pastry_item">
+            <img src="./images/pastry1.jpg" alt="" class="pastry_img" />
+            <h3 class="pastry_sub_title">All-Butter Croissant</h3>
+            <p class="pastry_text">Kit of 6 - £12</p>
+            <button class="pastry_btn">Add to cart</button>
+          </li>
+          <li class="pastry_item">
+            <img src="./images/pastry2.jpg" alt="" class="pastry_img" />
+            <h3 class="pastry_sub_title">Almond Croissant</h3>
+            <p class="pastry_text">Kit of 6 - £13.50</p>
+            <button class="pastry_btn">Add to cart</button>
+          </li>
+          <li class="pastry_item">
+            <img src="./images/pastry3.jpg" alt="" class="pastry_img" />
+            <h3 class="pastry_sub_title">Raspberry Danish</h3>
+            <p class="pastry_text">Kit of 6 - £13.50</p>
+            <button class="pastry_btn">Add to cart</button>
+          </li>
+          <li class="pastry_item">
+            <img src="./images/pastry4.jpg" alt="" class="pastry_img" />
+            <h3 class="pastry_sub_title">Pain Aux Raisins</h3>
+            <p class="pastry_text">Kit of 6 - £13.50</p>
+            <button class="pastry_btn">Add to cart</button>
+          </li>
+          <li class="pastry_item">
+            <img src="./images/pastry5.jpg" alt="" class="pastry_img" />
+            <h3 class="pastry_sub_title">Apricot Danish</h3>
+            <p class="pastry_text">Kit of 6 - £13.50</p>
+            <button class="pastry_btn">Add to cart</button>
+          </li>
+          <li class="pastry_item">
+            <img src="./images/pastry6.jpg" alt="" class="pastry_img" />
+            <h3 class="pastry_sub_title">Pain Au Chocolat</h3>
+            <p class="pastry_text">Kit of 6 - £13.50</p>
+            <button class="pastry_btn">Add to cart</button>
+          </li>
+        </ul>
+      </section>
+
+      <div class="chilled">
+        <img src="./images/chilled_img.jpg" alt="" class="chilled_img" />
+      </div>
+
+      <section class="tasty_cards">
+        <ul class="tasty_cards_list">
+          <li class="tasty_cards_item">
+            <img src="./images/tasty1.jpg" alt="" class="tasty_cards_img" />
+            <h3 class="tasty_cards_title">Better than the bakery</h3>
+            <p class="tasty_cards_text">
+              You’ll soon be making pastries to rival the best bakeries in town.
+              We use only the best ingredients for generous pastries that taste
+              and smell amazing. So good, that you’ll take all the credit.
+            </p>
+          </li>
+          <li class="tasty_cards_item">
+            <img src="./images/tasty2.jpg" alt="" class="tasty_cards_img" />
+            <h3 class="tasty_cards_title">Planet-friendly packaging</h3>
+            <p class="tasty_cards_text">
+              We’ve done everything we can to make sure our packaging has the
+              lightest footprint on the planet as possible. We’ve made sure
+              everything is recyclable, and use as little packaging as we can.
+            </p>
+          </li>
+          <li class="tasty_cards_item">
+            <img src="./images/tasty3.jpg" alt="" class="tasty_cards_img" />
+            <h3 class="tasty_cards_title">Simple to bake at home</h3>
+            <p class="tasty_cards_text">
+              We’ve done the hard work, so you don’t have to. Every pastry is
+              easy to make with our 3-step instructions and doesn’t require any
+              special tools – just an oven!
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="comics">
+        <div class="comics_top_block">
+        <div class="comics_left_top">
+          <img src="./images/comics1.svg" alt="" class="comics_left_top_img" />
+        </div>
+        <div class="comics_right_top">
+          <h3 class="comics_right_top_title">Amazing Ingredients</h3>
+          <p class="comics_right_top_text">We like to keep things simple and authentic. We’ve sourced the very best from the very best, from our Poitou-Charentes butter to our Valrhona chocolate batons.</p>
+          <button class="comics_right_top_btn">Read more</button>
+        </div>
+        </div>
+
+        <div class="comics_bottom_block">
+        <div class="comics_left_bottom">
+          <h3 class="comics_left_bottom_title">Legendary Bakes</h3>
+          <p class="comics_left_bottom_text">The inspiration for our brand and our guiding principles is the Legend of El Tarlà. A young man who brought joy to the isolated citizens of Girona during an outbreak of the plague.</p>
+          <button class="comics_left_bottom_btn">Read more</button>
+        </div>
+        <div class="comics_right_bottom"></div>
+          <img src="./images/comics2.jpg" alt="" class="comics_right_bottom_img" />
+        </div>
+        </div>
+
+      </section>
     </div>
-    
-</body>
+  </body>
 </html>
