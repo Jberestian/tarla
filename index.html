@@ -15,38 +15,39 @@
   </head>
   <body>
     <div class="wrapper">
-
       <header class="header">
         <div class="logo_nav_block">
-            <div class="logo_block">
+          <div class="logo_block">
             <a href="" class="logo_link"
-                ><img src="./images/logo.svg" alt="logo tarla" class="logo_img"
+              ><img src="./images/logo.svg" alt="logo tarla" class="logo_img"
             /></a>
-            </div>
+          </div>
 
-            <nav class="nav">
+          <nav class="nav">
             <ul class="nav_list">
-                <li class="nav_item"><a href="" class="nav_link">Shop</a></li>
-                <li class="nav_item"><a href="" class="nav_link">Our Story</a></li>
-                <li class="nav_item">
+              <li class="nav_item"><a href="" class="nav_link">Shop</a></li>
+              <li class="nav_item">
+                <a href="" class="nav_link">Our Story</a>
+              </li>
+              <li class="nav_item">
                 <a href="" class="nav_link">Who is Tarla?</a>
-                </li>
+              </li>
             </ul>
-            </nav>
+          </nav>
         </div>
-        
+
         <div class="registration">
           <ul class="reg_list">
             <li class="reg_item">
               <a href="" class="reg_link"
-                ><img src="./images/login.svg" alt="login" class="reg_img" /></a
-              >
+                ><img src="./images/login.svg" alt="login" class="reg_img"
+              /></a>
               <p class="reg_text">Log In</p>
             </li>
             <li class="reg_item">
               <a href="" class="reg_link"
-                ><img src="./images/cart.svg" alt="cart" class="reg_img" /></a
-              >
+                ><img src="./images/cart.svg" alt="cart" class="reg_img"
+              /></a>
               <p class="reg_text">Cart</p>
             </li>
           </ul>
@@ -72,9 +73,11 @@
       <section class="works">
         <h2 class="works_title">How it works</h2>
         <div class="works_cards">
-          <ul class="list">
+          <ul class="works_list">
             <li class="cards_item">
-              <img src="./images/cards_img1.svg" alt="" class="cards_img" />
+              <div class="cards_img_wrapper">
+                <img src="./images/cards_img1.svg" alt="" class="cards_img" />
+              </div>
               <h3 class="cards_title">Choose your fave</h3>
               <p class="cards_text">
                 This sounds easier than it's going to be. We've got all the
@@ -82,7 +85,9 @@
               </p>
             </li>
             <li class="cards_item">
-              <img src="./images/cards_img2.svg" alt="" class="cards_img" />
+              <div class="cards_img_wrapper">
+                <img src="./images/cards_img2.svg" alt="" class="cards_img" />
+              </div>
               <h3 class="cards_title">Ding dong</h3>
               <p class="cards_text">
                 Next you'll get a beautiful little package delivered to your
@@ -90,7 +95,9 @@
               </p>
             </li>
             <li class="cards_item">
-              <img src="./images/cards_img3.svg" alt="" class="cards_img" />
+              <div class="cards_img_wrapper">
+                <img src="./images/cards_img3.svg" alt="" class="cards_img" />
+              </div>
               <h3 class="cards_title">Get baked</h3>
               <p class="cards_text">
                 Take your fresh pastry sheet and fillings, learn our pro
@@ -98,7 +105,9 @@
               </p>
             </li>
             <li class="cards_item">
-              <img src="./images/cards_img4.svg" alt="" class="cards_img" />
+              <div class="cards_img_wrapper">
+                <img src="./images/cards_img4.svg" alt="" class="cards_img" />
+              </div>
               <h3 class="cards_title">Take the credit</h3>
               <p class="cards_text">
                 It was all you, nudge-nudge wink-wink. We're just happy to be
@@ -107,7 +116,9 @@
             </li>
           </ul>
         </div>
-        <button class="works btn">Shop pastry kits</button>
+        <div class="works_btn_wrapper">
+          <button class="works_btn">Shop pastry kits</button>
+        </div>
       </section>
 
       <section class="baked">
@@ -204,84 +215,102 @@
 
       <section class="comics">
         <div class="comics_top_block">
-        <div class="comics_left_top">
-          <img src="./images/comics1.svg" alt="" class="comics_left_top_img" />
-        </div>
-        <div class="comics_right_top">
-          <h3 class="comics_right_top_title">Amazing Ingredients</h3>
-          <p class="comics_right_top_text">We like to keep things simple and authentic. We’ve sourced the very best from the very best, from our Poitou-Charentes butter to our Valrhona chocolate batons.</p>
-          <button class="comics_right_top_btn">Read more</button>
-        </div>
+          <div class="comics_left_top">
+            <img
+              src="./images/comics1.svg"
+              alt=""
+              class="comics_left_top_img"
+            />
+          </div>
+          <div class="comics_right_top">
+            <h3 class="comics_right_top_title">Amazing Ingredients</h3>
+            <p class="comics_right_top_text">
+              We like to keep things simple and authentic. We’ve sourced the
+              very best from the very best, from our Poitou-Charentes butter to
+              our Valrhona chocolate batons.
+            </p>
+            <button class="comics_right_top_btn">Read more</button>
+          </div>
         </div>
 
         <div class="comics_bottom_block">
-        <div class="comics_left_bottom">
-          <h3 class="comics_left_bottom_title">Legendary Bakes</h3>
-          <p class="comics_left_bottom_text">The inspiration for our brand and our guiding principles is the Legend of El Tarlà. A young man who brought joy to the isolated citizens of Girona during an outbreak of the plague.</p>
-          <button class="comics_left_bottom_btn">Read more</button>
-        </div>
-        <div class="comics_right_bottom">
-          <img src="./images/comics2.jpg" alt="" class="comics_right_bottom_img" />
-        </div>
+          <div class="comics_left_bottom">
+            <h3 class="comics_left_bottom_title">Legendary Bakes</h3>
+            <p class="comics_left_bottom_text">
+              The inspiration for our brand and our guiding principles is the
+              Legend of El Tarlà. A young man who brought joy to the isolated
+              citizens of Girona during an outbreak of the plague.
+            </p>
+            <button class="comics_left_bottom_btn">Read more</button>
+          </div>
+          <div class="comics_right_bottom">
+            <img
+              src="./images/comics2.jpg"
+              alt=""
+              class="comics_right_bottom_img"
+            />
+          </div>
         </div>
       </section>
 
       <section class="tarlabakes">
-        <img src="./images/tarlabakes1.jpg" alt="" class="tarlabakes_img">
-        <img src="./images/tarlabakes2.jpg" alt="" class="tarlabakes_img">
-        <img src="./images/tarlabakes3.jpg" alt="" class="tarlabakes_img">
+        <img src="./images/tarlabakes1.jpg" alt="" class="tarlabakes_img" />
+        <img src="./images/tarlabakes2.jpg" alt="" class="tarlabakes_img" />
+        <img src="./images/tarlabakes3.jpg" alt="" class="tarlabakes_img" />
       </section>
 
       <footer class="footer">
         <div class="community">
-            <h1 class="community_title">Join our community</h1>
-            <p class="community_text">and let's get baked</p>
-            <button class="community_btn">oven@180degrees.com</button>
+          <h1 class="community_title">Join our community</h1>
+          <p class="community_text">and let's get baked</p>
+          <button class="community_btn">oven@180degrees.com</button>
         </div>
-      <div class="footer_logo">
-        <img src="./images/logo.svg" alt="footer logo" class="foot_logo_img">
-    </div>
-
-    <div class="account">
-        <a href="" class="account_link">Account</a>
-        <a href="" class="account_link">Sign Up</a>
-        <a href="" class="account_link">Log In</a>
-    </div>
-
-    <div class="company">
-        <a href="" class="company_link">Our company</a>
-        <a href="" class="company_link">Shop</a>
-        <a href="" class="company_link">Our Story</a>
-        <a href="" class="company_link">Who is Tarla?</a>
-    </div>
-
-    <div class="resources">
-        <a href="" class="resources link">Resources</a>
-        <a href="" class="resources link">FAQ</a>
-        <a href="" class="resources link">Contact</a>
-        <a href="" class="resources link">Become an Influencer</a>
-        <a href="" class="resources link">Privacy Policy</a>
-        <a href="" class="resources link">Terms of Service</a>
-        <a href="" class="resources link">Refund Policy</a>
-    </div>
-
-    <div class="social">
-        <a href="" class="social_link">@tarlabakes</a>
-        <div class="social_block">
-            <img src="./images/x.svg" alt="" class="social_icons">
-            <img src="./images/facebook.svg" alt="" class="social_icons">
-            <img src="./images/instagram.svg" alt="" class="social_icons">
-            <img src="./images/tiktok.svg" alt="" class="social_icons">
-            <img src="./images/spotify.svg" alt="" class="social_icons">
+        <div class="footer_logo">
+          <img
+            src="./images/logo.svg"
+            alt="footer logo"
+            class="foot_logo_img"
+          />
         </div>
-    </div>
 
-    <div class="copyright">
-        <p class="copyright_text">©2021 Tarla</p>
-    </div>
-
-
-    </footer>
+        <div class="account">
+          <a href="" class="account_link">Account</a>
+          <a href="" class="account_link">Sign Up</a>
+          <a href="" class="account_link">Log In</a>
         </div>
+
+        <div class="company">
+          <a href="" class="company_link">Our company</a>
+          <a href="" class="company_link">Shop</a>
+          <a href="" class="company_link">Our Story</a>
+          <a href="" class="company_link">Who is Tarla?</a>
+        </div>
+
+        <div class="resources">
+          <a href="" class="resources link">Resources</a>
+          <a href="" class="resources link">FAQ</a>
+          <a href="" class="resources link">Contact</a>
+          <a href="" class="resources link">Become an Influencer</a>
+          <a href="" class="resources link">Privacy Policy</a>
+          <a href="" class="resources link">Terms of Service</a>
+          <a href="" class="resources link">Refund Policy</a>
+        </div>
+
+        <div class="social">
+          <a href="" class="social_link">@tarlabakes</a>
+          <div class="social_block">
+            <img src="./images/x.svg" alt="" class="social_icons" />
+            <img src="./images/facebook.svg" alt="" class="social_icons" />
+            <img src="./images/instagram.svg" alt="" class="social_icons" />
+            <img src="./images/tiktok.svg" alt="" class="social_icons" />
+            <img src="./images/spotify.svg" alt="" class="social_icons" />
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p class="copyright_text">©2021 Tarla</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
