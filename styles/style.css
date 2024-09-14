@@ -1,187 +1,284 @@
 .wrapper {
-    background-color: #F5EDE7;
+  background-color: #f5ede7;
 }
 
 /* header styles */
 
 .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo_nav_block {
-    display: flex;
+  display: flex;
 }
 
 .logo_img {
-    padding: 16px 16px 16px 24px;
+  padding: 16px 16px 16px 24px;
 }
 
 .nav_list {
-    display: flex;
-    padding-top: 54px;
+  display: flex;
+  padding-top: 54px;
 }
 
 .nav_item {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
 .nav_item:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .nav_link {
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 13px;
-    color: #000000;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 13px;
+  color: #000000;
 }
 
 .registration {
-    padding: 32px 24px 16px 0;
-}    
+  padding: 32px 24px 16px 0;
+}
 
 .reg_list {
-    display: flex;
+  display: flex;
 }
 
 .reg_item {
-    margin-right: 16px;
+  margin-right: 16px;
 }
 
 .reg_item:last-child {
-    margin-right: 0;
-    margin-top: -5px;
+  margin-right: 0;
+  margin-top: -5px;
 }
 
 .reg_text {
-    font-family: DM Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    color: #000000;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000000;
 }
 
 /* fresh styles */
 
 .fresh {
-    display: flex;
-    background-color: #FFC3A0;
+  display: flex;
+  background-color: #ffc3a0;
 }
 
 .fresh_left {
-    padding: 83px 83px 24px 16px ;
+  padding: 83px 83px 24px 16px;
 }
 
 .left_title {
-    margin-bottom: 33px;
-    font-family: Roboto;
-    font-size: 78px;
-    font-weight: 400;
-    line-height: 90px;
-    text-align: left;
-    color: #000000;
+  margin-bottom: 33px;
+  font-family: Roboto;
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 90px;
+  text-align: left;
+  color: #000000;
 }
 
 .left_text {
-    margin-bottom: 21px;
-    font-family: DM Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
+  margin-bottom: 21px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
 }
 
 .left_btn {
-    padding: 12px 73px;
-    font-family: Roboto;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 34px;
-    text-align: center;
-    background-color: inherit;
-    /* outline: none; */
-    border-radius: 35px;
-    border: solid 1px #000000;
-
+  padding: 12px 73px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+  background-color: inherit;
+  border-radius: 35px;
+  border: solid 1px #000000;
 }
 
 .right_img {
-    padding: 24px 16px 24px 0;
+  padding: 24px 16px 24px 0;
 }
 
 /* works styles */
 
 .works {
-    padding: 64px 16px 81px 16px;
+  padding: 64px 16px 81px 16px;
 }
 
 .works_title {
-    font-family: Roboto;
-    font-size: 43px;
-    font-weight: 400;
-    line-height: 60.01px;
-    text-align: center;
-    color: #000000;
+  font-family: Roboto;
+  font-size: 43px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
 }
 
 .works_list {
-    display: flex;
+  display: flex;
 }
 
 .cards_item {
-    margin-right: 28px;
+  margin-right: 28px;
 }
 
 .cards_item:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .cards_img_wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .cards_img {
-    width: 99px;
-    height: 99px;
-    margin-bottom: 16px;
+  width: 99px;
+  height: 99px;
+  margin-bottom: 16px;
 }
 
 .cards_title {
-    font-family: Roboto;
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: center;
-    color: #000000;
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
 }
 
 .cards_text {
-    font-family: DM Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28.01px;
-    text-align: center;
-    color: #000000;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
 }
 
 .works_btn_wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.works_btn {
-    padding: 12px 73px;
-    margin-top: 64px;
-    font-family: Roboto;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 34px;
-    text-align: center;
-    color: #0126de;
-    border: solid 1px #0126de;
-    border-radius: 35px;
-    background-color: inherit;
+.works_btn,
+.baked_btn {
+  padding: 12px 73px;
+  margin-top: 64px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+  color: #0126de;
+  border: solid 1px #0126de;
+  border-radius: 35px;
+  background-color: inherit;
+}
+
+/* baked styles */
+
+.baked {
+  display: flex;
+  padding: 72px 16px;
+}
+
+.baked_left {
+  margin-right: 48px;
+}
+
+.baked_right {
+  padding-top: 111px;
+}
+
+.baked_text {
+  margin-bottom: 23px;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+  text-align: left;
+  color: #000000;
+}
+
+.baked_btn {
+  margin-top: 0;
+}
+
+/* pastry styles */
+
+.pastry {
+  margin-bottom: 65px;
+}
+
+.pastry_title {
+  font-family: Roboto;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 56px;
+  text-align: center;
+}
+
+.pastry_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pastry_sub_title {
+  width: 120px;
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #000000;
+}
+
+.pastry_text {
+  margin-bottom: 16px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.pastry_btn {
+  margin-bottom: 24px;
+  padding: 12px 73px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+  color: #0126de;
+  border: solid 1px #0126de;
+  border-radius: 35px;
+  background-color: inherit;
+}
+
+/* tasty cards styles */
+
+.tasty_cards_list {
+  display: flex;
+}
+
+.tasty_cards_item {
+  margin-right: 16px;
+  border-radius: 20px;
+  border: solid 1px #000000;
+}
+
+.tasty_cards_item:last-child {
+  margin-right: 0;
 }
