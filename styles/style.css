@@ -70,7 +70,43 @@
     background-color: #FFC3A0;
 }
 
+.fresh_left {
+    padding: 83px 83px 24px 16px ;
+}
+
+.left_title {
+    margin-bottom: 33px;
+    font-family: Roboto;
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 90px;
+    text-align: left;
+    color: #000000;
+}
+
+.left_text {
+    margin-bottom: 21px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.left_btn {
+    padding: 12px 73px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    background-color: inherit;
+    /* outline: none; */
+    border-radius: 35px;
+    border: solid 1px #000000;
+
+}
+
 .right_img {
     padding: 24px 16px 24px 0;
-
 }
