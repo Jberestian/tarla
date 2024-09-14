@@ -1,0 +1,76 @@
+.wrapper {
+    background-color: #F5EDE7;
+}
+
+/* header styles */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_nav_block {
+    display: flex;
+}
+
+.logo_img {
+    padding: 16px 16px 16px 24px;
+}
+
+.nav_list {
+    display: flex;
+    padding-top: 54px;
+}
+
+.nav_item {
+    margin-right: 16px;
+}
+
+.nav_item:last-child {
+    margin-right: 0;
+}
+
+.nav_link {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #000000;
+}
+
+.registration {
+    padding: 32px 24px 16px 0;
+}    
+
+.reg_list {
+    display: flex;
+}
+
+.reg_item {
+    margin-right: 16px;
+}
+
+.reg_item:last-child {
+    margin-right: 0;
+    margin-top: -5px;
+}
+
+.reg_text {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+
+/* fresh styles */
+
+.fresh {
+    display: flex;
+    background-color: #FFC3A0;
+}
+
+.right_img {
+    padding: 24px 16px 24px 0;
+
+}
