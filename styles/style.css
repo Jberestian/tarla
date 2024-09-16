@@ -400,6 +400,7 @@
   align-items: center;
   flex-direction: column;
   margin-top: 33px;
+  margin-bottom: 64px;
 }
 
 .community_title {
@@ -437,6 +438,7 @@
 
 .footer_block {
   display: flex;
+  justify-content: space-around;
 }
 
 .column {
@@ -451,6 +453,7 @@
   line-height: 36.02px;
   text-align: left;
   color: #000000;
+  margin-bottom: 24px;
 }
 
 .footer_text {
@@ -460,6 +463,7 @@
   line-height: 24px;
   text-align: left;
   color: #000000;
+  margin-bottom: 4px;
 }
 
 .social_link {
@@ -469,4 +473,8 @@
   line-height: 36.02px;
   text-align: left;
   color: #000000;
+}
+
+.social_block {
+  margin-top: 24px;
 }
