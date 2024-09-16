@@ -370,11 +370,103 @@
 
 /* tarlabakes styles */
 
-.tarlabakes {
+.tarlabakes_title {
+  margin: 65px 0 15px 0;
   font-family: Roboto;
   font-size: 43px;
   font-weight: 400;
   line-height: 60px;
   text-align: center;
+  color: #000000;
+}
+
+.tarlabakes_img_block {
+  display: flex;
+  justify-content: center;
+}
+
+.tarlabakes_img {
+  margin-right: 24px;
+}
+
+.tarlabakes_img:last-child {
+  margin-right: 0;
+}
+
+/* community styles | footer styles */
+
+.community {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 33px;
+}
+
+.community_title {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 14px;
+}
+
+.community_text {
+  font-family: Roboto;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 17px;
+}
+
+.community_btn {
+  padding: 7px 139px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+  color: #000000;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background-color: inherit;
+}
+
+.footer_block {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_title {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36.02px;
+  text-align: left;
+  color: #000000;
+}
+
+.footer_text {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+.social_link {
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36.02px;
+  text-align: left;
   color: #000000;
 }
