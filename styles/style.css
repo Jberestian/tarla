@@ -295,6 +295,7 @@
 }
 
 .tasty_cards_title {
+  padding: 0 20px;
   font-family: Roboto;
   font-size: 57px;
   font-weight: 400;
